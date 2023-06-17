@@ -1,1 +1,413 @@
+<html>
+    <head>
+        <title>Home</title>
+        </head>
+  body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    color:white;
+    font-weight: 600;
+    background-color: #000000;
+}
+/* #262626; */
+
+/* nav bar */
+.head-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px 5px  #000000;
+    padding: 10px;
+    gap:10px;
+}
+#logo{
+    font-weight:700;
+    font-size:48px;
+    margin-right: 70px;
+}
+#search-bar
+{
+    border: 5px solid #000000;
+    background: #262626;
+    border-radius: 10px;
+}
+
+#search, #login , #explore , #rent{
+    padding: 5px;
+    width: 100px;
+    left: 958px;
+    top: 33px;
+    background: #1F1F1F;
+    border-radius: 10px;
+    color: white;
+}
+#login , #explore , #rent{
+    text-align: center; 
+
+}
+#search{
+    padding: 10px;
+    border: none;
+    display: flex;
+    width:  597px;
+    color:white;
+}
+.section-1
+{
+    background-color: #262626;
+    color: white;
+    font-size: 48px;
+    margin: 10px 0px 0px 200px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border: 5px solid yellow;
+    width: 1000px;
+    height: 450px; 
+}
+#ul1 li 
+{
+    font-size: 20px;
+}
+img 
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color:#FECB03 ;
+}
+#clock
+{
+background-color: #FECB03;
+position: absolute;
+width: 279px;
+height: 279px;
+right: 350px;
+top: 150px;
+}
+#km
+{
+    background-color: #FECB03;
+    border-radius: 50px;
+    position: absolute;
+    width: 260px;
+    height: 107px;
+    right: 365px;
+    top: 470px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+.section-2
+{
+    color: white;
+    font-size: 30px;
+    margin: 15px 0px 0px 200px;
+}
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.flex-container>div
+{
+    border: 1px solid white;
+    color: lightgray;
+    height: 10px;
+    margin: 25px;
+    padding: 5%;
+}
+#flogo
+{
+    font-weight:600;
+    font-size:30px;
+    margin-left: 80px;
+}
+footer
+{
+position: absolute;
+width: 1346px;
+height: 283px;
+left: 40px;
+padding-top: 10px;
+background: #262626;
+color: rgba(255, 255, 255, 0.8);
+border-radius: 30px;
+}
+footer li 
+{
+    padding: 1px;
+}
+#sm,#sl
+{
+position: absolute;
+width: 335px;
+height: 53px;
+border-bottom: 100px; 
+}
+#flogo
+{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.flex-containers
+{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+.flex-containers>div
+{
+    border: 1px solid #262626;
+    color: lightgray;
+    height: 10px;
+    margin: 0px;
+    padding: 5%;
+}
+    <body>
+        <header class="head-container">
+            <div id="logo">Forent</div>
+            <div id="search-bar">
+                <label for="search"></label>
+                <input type="search" id="search" placeholder="Search">
+            </div>
+            <button id="login">Login</button>
+            <button id="explore">Explore</button>
+            <button id="rent">Rent</button>
+            <!-- git test -->
+        
+        </header>
+        <main>
+            <section class="section-1">
+                About Us
+                <ul style="list-style-type: none;" id="ul1">
+                <li><img src="Vector.png"><space>Rent Out Anything You Want</space></li>
+                <li><img src="Vector (1).png">No worries about items getting lost</li>
+                <li><img src="Vector (2).png">Online Payments Only</li>
+                </ul>
+                <img src="Vector4.png" id="clock">
+                <button id="km">Know More</button>
+            </section>
+            <section class="section-2">
+                <div style="font-size: 45px;">Our Categories</div>
+                <div class="flex-container">
+                    <div>Electronics
+                    </div>
+                    <div>Clothes/Apparel</div>
+                    <div>Gaming</div>
+                    <div>Gaming</div>
+                    <div>Clothe/Apparel</div>
+                    <div>Gaming</div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="flex-containers">
+            <div id="flogo">Forent<br>
+            <pre style="font-size: 18px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore 
+magna aliqua. Ut enim ad minim veniam, quis nostrud 
+exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat.
+            </pre>
+           </div>
+           <div>
+           <div style="font-size: 32px;"><b>Site Maps</b></div>
+            <ul style="list-style-type: none;">
+                <li>Home </li>
+                <li>Search</li>
+                <li>Explore</li>
+                <li>Login/Signup</li>
+            </ul>
+           </div>
+           <div>
+            <div style="font-size: 32px;"><b>Socials</b></div>
+            <ul style="list-style-type: none">
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Liinkedin</li>
+                <li>Twiiter</li>
+            </ul>
+           </div>
+        </footer>
+    </body>
+</html>
+
+<style>
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    color:white;
+    font-weight: 600;
+    background-color: #000000;
+}
+/* #262626; */
+
+/* nav bar */
+.head-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px 5px  #000000;
+    padding: 10px;
+    gap:10px;
+}
+#logo{
+    font-weight:700;
+    font-size:48px;
+    margin-right: 70px;
+}
+#search-bar
+{
+    border: 5px solid #000000;
+    background: #262626;
+    border-radius: 10px;
+}
+
+#search, #login , #explore , #rent{
+    padding: 5px;
+    width: 100px;
+    left: 958px;
+    top: 33px;
+    background: #1F1F1F;
+    border-radius: 10px;
+    color: white;
+}
+#login , #explore , #rent{
+    text-align: center; 
+
+}
+#search{
+    padding: 10px;
+    border: none;
+    display: flex;
+    width:  597px;
+    color:white;
+}
+.section-1
+{
+    background-color: #262626;
+    color: white;
+    font-size: 48px;
+    margin: 10px 0px 0px 200px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border: 5px solid yellow;
+    width: 1000px;
+    height: 450px; 
+}
+#ul1 li 
+{
+    font-size: 20px;
+}
+img 
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color:#FECB03 ;
+}
+#clock
+{
+background-color: #FECB03;
+position: absolute;
+width: 279px;
+height: 279px;
+right: 350px;
+top: 150px;
+}
+#km
+{
+    background-color: #FECB03;
+    border-radius: 50px;
+    position: absolute;
+    width: 260px;
+    height: 107px;
+    right: 365px;
+    top: 470px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+.section-2
+{
+    color: white;
+    font-size: 30px;
+    margin: 15px 0px 0px 200px;
+}
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.flex-container>div
+{
+    border: 1px solid white;
+    color: lightgray;
+    height: 10px;
+    margin: 25px;
+    padding: 5%;
+}
+#flogo
+{
+    font-weight:600;
+    font-size:30px;
+    margin-left: 80px;
+}
+footer
+{
+position: absolute;
+width: 1346px;
+height: 283px;
+left: 40px;
+padding-top: 10px;
+background: #262626;
+color: rgba(255, 255, 255, 0.8);
+border-radius: 30px;
+}
+footer li 
+{
+    padding: 1px;
+}
+#sm,#sl
+{
+position: absolute;
+width: 335px;
+height: 53px;
+border-bottom: 100px; 
+}
+#flogo
+{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.flex-containers
+{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+.flex-containers>div
+{
+    border: 1px solid #262626;
+    color: lightgray;
+    height: 10px;
+    margin: 0px;
+    padding: 5%;
+}
+    </style>
 
